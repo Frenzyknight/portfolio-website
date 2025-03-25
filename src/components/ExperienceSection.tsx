@@ -1,5 +1,4 @@
 import { IconBrandGoogle, IconBrandAdobe } from "@tabler/icons-react"
-import { Icon } from "lucide-react"
 export default function ExpereienceSection() {
     const experience = [
         {

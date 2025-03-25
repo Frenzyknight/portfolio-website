@@ -8,13 +8,13 @@ export default function HeroSection() {
             <div className=" gap-8 md:gap-0 w-full flex justify-between flex-col-reverse md:flex-row items-center md:relative">
                 <div className="flex flex-col z-1">
                     <h1 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl">
-                        Hello I'm <span className="font-bold">Gaurav Ganju</span>
+                        Hello I&apos;m <span className="font-bold">Gaurav Ganju</span>
                     </h1>
                     <h1 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl mt-2 lg:mt-6">
                         <span className="font-bold">FullStack</span> Developer
                     </h1>
                     <p className="mt-6 lg:mt-8 xl:mt-12 xl:w-xl lg:w-md md:w-xs w-full">
-                    I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+                    I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
                     </p>
                     <div className="flex gap-4 mt-12 sm:self-start self-center">
                         <motion.a whileHover={{scale:1.2}} href="#" className="p-3 bg-github rounded-md"><IconBrandGithubFilled className="text-white" size={28}/></motion.a>
