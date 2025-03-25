@@ -16,7 +16,7 @@ export default  function ProjectSection() {
                     </div>
                     <div className="order-2 md:order-1 flex flex-col justify-center text-white">
                         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">01</h2>
-                        <h3 className="text-2xl lg:text-3xl xl:text- font-bold mb-4">Crypto Screener Application</h3>
+                        <h3 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-4">Crypto Screener Application</h3>
                         <p className="text-zinc text-base mb-6">
                         I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                         been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of
@@ -38,7 +38,7 @@ export default  function ProjectSection() {
                     </div>
                     <div className="order-2 flex flex-col justify-center text-white">
                         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">02</h2>
-                        <h3 className="text-2xl lg:text-3xl xl:text- font-bold mb-4">Crypto Screener Application</h3>
+                        <h3 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-4">Crypto Screener Application</h3>
                         <p className="text-zinc text-base mb-6">
                         I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                         been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of
@@ -60,7 +60,7 @@ export default  function ProjectSection() {
                     </div>
                     <div className="order-2 md:order-1 flex flex-col justify-center text-white">
                         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">03</h2>
-                        <h3 className="text-2xl lg:text-3xl xl:text- font-bold mb-4">Crypto Screener Application</h3>
+                        <h3 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-4">Crypto Screener Application</h3>
                         <p className="text-zinc text-base mb-6">
                         I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                         been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of
