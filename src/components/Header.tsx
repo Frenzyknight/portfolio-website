@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
 import { motion } from "motion/react"
-import { Button } from "./ui/moving-border";
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
