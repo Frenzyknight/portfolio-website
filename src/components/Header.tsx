@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
 import { motion } from "motion/react"
+import { Button } from "./ui/moving-border";
+
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
   return (
@@ -16,7 +18,7 @@ export default function Header() {
             <Hamburger size={28} toggled={isOpen} toggle={setIsOpen} />
         </button>
         <nav className={`${isOpen ? 'flex' : 'hidden'} md:flex md:bg-white h-full justify-center md:static md:py-8 py-16 w-3/5 md:w-fit absolute top-0 right-0 z-5 bg-black/30 backdrop-blur-lg`}>
-            <ul className='md:flex-row flex flex-col justify-center md:gap-3 gap-6 font-sora font-semibold text-xl md:text-base lg:text-xl text-center text-white md:text-black'>
+            <ul className='md:flex-row flex flex-col justify-center md:gap-4 gap-6 font-sora font-semibold text-xl md:text-base lg:text-xl text-center text-white md:text-black cursor-pointer'>
                 <motion.a whileHover={{scale:1.1}}><li>About Me</li></motion.a>
                 <motion.a whileHover={{scale:1.1}}><li>Skills</li></motion.a>
                 <motion.a whileHover={{scale:1.1}}><li>Projects</li></motion.a>

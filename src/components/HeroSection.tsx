@@ -13,7 +13,7 @@ export default function HeroSection() {
                     <h1 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl mt-2 lg:mt-6">
                         <span className="font-bold">FullStack</span> Developer
                     </h1>
-                    <p className="mt-6 lg:mt-8 xl:mt-12 xl:w-xl lg:w-md md:w-xs w-full">
+                    <p className="text-zinc-500 mt-6 lg:mt-8 xl:mt-12 xl:w-xl lg:w-md md:w-xs w-full">
                     I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
                     </p>
                     <div className="flex gap-4 mt-12 sm:self-start self-center">

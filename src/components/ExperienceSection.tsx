@@ -26,9 +26,9 @@ export default function ExpereienceSection() {
                                     {exp.logo}
                                     <h4 className="font-semibold text-2xl">{exp.title}</h4>
                                 </div>
-                            <time className="font-semibold text-base">{exp.duration}</time>
+                            <time className="font-semibold text-lg text-zinc">{exp.duration}</time>
                             </div>
-                            <p className="text-base">
+                            <p className="text-lg text-zinc">
                                 {exp.description}
                             </p>
                         </div>

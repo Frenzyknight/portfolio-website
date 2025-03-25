@@ -7,6 +7,8 @@
 /* #FF9100 */
 @theme inline {
   --radius-bro: 1rem;
+  --color-zinc: #D4D4D8;
+  --color-zinc-500: #71717A;
   --color-react: #61DBFB;
   --color-github: #2b3137;
   --color-tailwind: #37BCF8;
