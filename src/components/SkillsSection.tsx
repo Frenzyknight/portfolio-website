@@ -84,8 +84,7 @@ export default function SkillsSection() {
         }
     ]
   return (
-    <section id='skills' className='flex justify-center h-fit py-10 px-6 sm:px-6 md:py-14 lg:px-8 xl:px-12 font-sora'>
-        <div className="flex w-full flex-col gap-20 items-center">
+    <section id='skills' className='flex flex-col gap-12 md:gap-20 items-center justify-center h-fit py-10 px-6 sm:px-6 md:py-14 lg:px-8 xl:px-12 font-sora'>
             <h2 className="text-3xl md:text-5xl">My <span className="font-extrabold">Skills</span></h2>
             <div className="grid w-full gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {skills.map((skill)=> {
@@ -97,7 +96,6 @@ export default function SkillsSection() {
                     )
                 })}
             </div>
-        </div>
     </section>
   )
 }

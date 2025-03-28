@@ -27,15 +27,13 @@ export default  function ProjectSection() {
             </div>
             <div className="flex">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="order-1">
                         <Image
                         src="/project.png"
                         alt="Crypto Screener Application"
-                        width={500}
-                        height={400}
-                        className="rounded-lg w-full h-auto"
+                        width={1030}
+                        height={792}
+                        className="rounded-lg order-1 w-full h-full object-cover"
                         />
-                    </div>
                     <div className="order-2 flex flex-col justify-center text-white">
                         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">02</h2>
                         <h3 className="text-2xl lg:text-3xl xl:text-4xl font-bold mb-4">Crypto Screener Application</h3>
