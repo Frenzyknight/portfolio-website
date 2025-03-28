@@ -14,7 +14,7 @@ export default function Footer() {
                     <button className='bg-black text-white p-6 rounded-lg text-lg font-medium '>Get in Touch</button>
                 </Form>
                 <div className='flex-1 flex flex-col gap-8'>
-                    <h1 className='xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-extrabold'>Let's connect for Something<br/> Special</h1>
+                    <h1 className='xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-extrabold'>Let&apos;s connect for Something<br/> Special</h1>
                     <p className='text-zinc-500'>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences. I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
                     <div className='font-semibold text-3xl flex flex-col gap-2'>
                         <h3>gauravganju@gmail.com</h3>
