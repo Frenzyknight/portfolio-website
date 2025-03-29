@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default  function ProjectSection() {
     return (
-        <section className="flex bg-black flex-col gap-12 w-full py-10 px-6 md:py-14 lg:px-8 xl:px-12 font-sora items-center">
+        <section className="flex bg-black flex-col gap-20 w-full py-10 px-6 md:py-14 lg:px-8 xl:px-12 font-sora items-center">
             <h2 className="text-white text-3xl md:text-5xl">My <span className="font-extrabold">Projects</span></h2>
             <div className="flex flex-col md:flex-row gap-8">
                 <Image
@@ -21,7 +21,7 @@ export default  function ProjectSection() {
                     </p>
                 </div>
             </div>  
-            <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex flex-col md:flex-row-reverse gap-8">
                 <Image
                 src="/project.png"
                 alt="Crypto Screener Application"
