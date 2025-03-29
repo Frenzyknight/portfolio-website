@@ -17,10 +17,10 @@ export default function HeroSection() {
                     I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
                     </p>
                     <div className="flex gap-4 mt-12 sm:self-start self-center">
-                        <motion.a whileHover={{scale:1.2}} href="#" className="p-3 bg-github rounded-md"><IconBrandGithubFilled className="text-white" size={28}/></motion.a>
-                        <motion.a whileHover={{scale:1.2}} href="#" className="p-3 bg-linkedin rounded-md"><IconBrandLinkedinFilled className="text-white" size={28}/></motion.a>
-                        <motion.a whileHover={{scale:1.2}} href="#" className="p-3 bg-discord rounded-md"><IconBrandDiscordFilled className="text-white" size={28}/></motion.a>
-                        <motion.a whileHover={{scale:1.2}} href="#" className="p-3 bg-reddit rounded-md"><IconBrandReddit className="text-white" size={28}/></motion.a>
+                        <motion.a href="https://github.com/Frenzyknight" target="_blank" whileHover={{scale:1.2}} className="p-3 bg-github rounded-md"><IconBrandGithubFilled className="text-white" size={28}/></motion.a>
+                        <motion.a whileHover={{scale:1.2}} href="https://www.linkedin.com/in/gaurav-ganju-107098190/" target="_blank" className="p-3 bg-linkedin rounded-md"><IconBrandLinkedinFilled className="text-white" size={28}/></motion.a>
+                        <motion.a whileHover={{scale:1.2}} href="https://discordapp.com/users/632584217230049319" target="_blank" className="p-3 bg-discord rounded-md"><IconBrandDiscordFilled className="text-white" size={28}/></motion.a>
+                        <motion.a whileHover={{scale:1.2}} href="https://www.reddit.com/user/PhasePuzzleheaded753/" target="_blank" className="p-3 bg-reddit rounded-md"><IconBrandReddit className="text-white" size={28}/></motion.a>
                     </div>
                 </div>
                 <Image src="/hero.png" alt="Hero Image" width={256} height={256} className="xl:w-3xl lg:w-2xl max-[1030px]:w-xl max-[816px]:w-lg max-[768px]:w-full md:absolute md:right-0 md:z-10"/>
