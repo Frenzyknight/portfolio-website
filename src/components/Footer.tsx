@@ -17,7 +17,7 @@ export default function Footer() {
         sendEmail(data);
       }
     return (
-        <footer className='flex flex-col h-fit font-sora'>
+        <footer id='contact' className='flex flex-col h-fit font-sora'>
             <div className='flex flex-col md:flex-row gap-6 md:gap-10 lg:gap-16 xl:gap-30 items-center py-10 px-6 md:py-14 lg:px-8 xl:px-12'>
                 <Form action="" className='flex flex-col flex-1 gap-3 w-full'>
                     <label htmlFor="contactName" className='font-medium'>Name</label>

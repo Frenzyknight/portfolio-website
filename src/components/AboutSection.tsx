@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function AboutSection() {
     return (
-        <section className="flex flex-col lg:flex-row gap-12 w-full py-10 px-6 md:py-14 lg:px-8 xl:px-12 font-sora items-center">
+        <section id="about" className="flex flex-col lg:flex-row gap-12 w-full py-10 px-6 md:py-14 lg:px-8 xl:px-12 font-sora items-center">
             <Image
                 src="/hero2.png"
                 alt="about"
