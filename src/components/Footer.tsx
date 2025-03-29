@@ -1,17 +1,32 @@
+"use client"
 import Form from 'next/form';
 import Image from 'next/image';
+import { useForm } from 'react-hook-form';
+import { sendEmail } from '@/utils/send-email';
+import { motion } from 'framer-motion';
+
+export type FormData = {
+    name: string;
+    email: string;
+    message: string;
+  };
+  
 export default function Footer() {
+    const { register, handleSubmit } = useForm<FormData>();
+    function onSubmit(data: FormData) {
+        sendEmail(data);
+      }
     return (
         <footer className='flex flex-col h-fit font-sora'>
             <div className='flex flex-col md:flex-row gap-6 md:gap-10 lg:gap-16 xl:gap-30 items-center py-10 px-6 md:py-14 lg:px-8 xl:px-12'>
                 <Form action="" className='flex flex-col flex-1 gap-3 w-full'>
                     <label htmlFor="contactName" className='font-medium'>Name</label>
-                    <input type="text" placeholder="John Doe" name='contactName' className='border-2 border-black py-3 lg:py-5 px-5 rounded-lg' />
+                    <input type="text" placeholder="John Doe" className='border-2 border-black py-3 lg:py-5 px-5 rounded-lg' {...register('name', { required: true })} />
                     <label htmlFor="contactEmail" className='font-medium'>Email</label>
-                    <input type="email" placeholder="johndoe@email.com" name='contactEmail' className='border-2 border-black py-3 lg:py-5 px-5 rounded-lg' />
-                    <label htmlFor="contactMessage" className='font-medium'>Message</label>    
-                    <textarea placeholder="Your message to me" name="contactMessage" rows={4} className='border-2 border-black py-3 lg:py-5 px-5 rounded-lg resize-none'></textarea> 
-                    <button className='bg-black text-white p-3 lg:p-5 rounded-lg text-lg font-medium mt-2'>Get in Touch</button>
+                    <input type="email" placeholder="johndoe@email.com" className='border-2 border-black py-3 lg:py-5 px-5 rounded-lg' {...register('email', { required: true })} />
+                    <label htmlFor="message" className='font-medium'>Message</label>    
+                    <textarea placeholder="Your message to me" rows={4} className='border-2 border-black py-3 lg:py-5 px-5 rounded-lg resize-none' {...register('message', { required: true })}></textarea> 
+                    <motion.button whileTap={{scale: 0.995}} whileHover={{scale: 1.02}} onClick={handleSubmit(onSubmit)} className='bg-black text-white p-3 lg:p-5 rounded-lg text-lg font-medium mt-2 cursor-pointer'>Get in Touch</motion.button>
                 </Form>
                 <div className='flex-1 flex flex-col gap-8'>
                     <h1 className='xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-extrabold max-w-lg'>Let&apos;s connect for Something<br/> Special</h1>
@@ -27,7 +42,7 @@ export default function Footer() {
                     <Image src="/logo 2.png" alt="Generic logo of letter P" width={40} height={40} />
                     <span className='text-sm md:text-base lg:text-xl font-bold font-sora'>Gaurav Ganju</span>
                 </div> 
-                <p className='text-sm md:text-base lg:text-xl'>@ 2025 Gaurav Gajnu</p>
+                <p className='text-sm md:text-base lg:text-lg'>@ 2025 Gaurav Gajnu</p>
             </div>
         </footer>
     );
