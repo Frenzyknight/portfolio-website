@@ -30,10 +30,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <SpeedInsights />
         <SplashCursor />
         <Header />
         {children}
+        <SpeedInsights />
+
         <Footer />
       </body>
     </html>
