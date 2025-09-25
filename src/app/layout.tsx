@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import SplashCursor from "@/components/ui/splashCursor";
 import Footer from "@/components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 const geistSans = Geist({
