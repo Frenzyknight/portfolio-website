@@ -22,10 +22,10 @@ export default function Header() {
                 <motion.a href='#skills' whileHover={{scale:1.1}}><li>Skills</li></motion.a>
                 <motion.a href='#project' whileHover={{scale:1.1}}><li>Projects</li></motion.a>
                 <motion.a href='#contact' whileHover={{scale:1.1}}><li>Contact Me</li></motion.a>
-                <motion.a href='https://pub-445e0facfa9341379665f33597ab52b5.r2.dev/Gaurav_Ganju_CV.pdf' target='_blank' download="Gaurav_Ganju_CV.pdf" whileHover={{scale:1.1}}><li className='md:hidden'>Resume</li></motion.a>
+                <motion.a href='/resume.pdf' download="Gaurav_Ganju_Resume.pdf" whileHover={{scale:1.1}}><li className='md:hidden'>Resume</li></motion.a>
             </ul>
         </nav>
-        <motion.a whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} href='https://pub-445e0facfa9341379665f33597ab52b5.r2.dev/Gaurav_Ganju_CV.pdf' target='_blank' download="Gaurav_Ganju_CV.pdf" className='hidden md:text-base text-sm lg:text-xl md:flex gap-2 font-sora font-semibold md:py-4 md:px-5 rounded-sm text-white bg-black'>
+        <motion.a whileHover={{scale: 1.05}} whileTap={{scale: 0.95}} href='/resume.pdf' download="Gaurav_Ganju_Resume.pdf" className='hidden md:text-base text-sm lg:text-xl md:flex gap-2 font-sora font-semibold md:py-4 md:px-5 rounded-sm text-white bg-black'>
             Resume
             <Image src="/download.png" alt="download icon" width={20} height={20} className='object-contain' />
         </motion.a>

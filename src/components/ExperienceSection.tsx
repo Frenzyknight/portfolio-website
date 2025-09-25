@@ -1,17 +1,17 @@
-import { IconBrandGoogle, IconBrandAdobe } from "@tabler/icons-react"
+import Image from "next/image"
 export default function ExpereienceSection() {
     const experience = [
         {
-            title: "Lead Software Engineer at Google",
-            description: "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
-            duration: "Nov 2019 - Present",
-            logo: <IconBrandGoogle className="shrink-0" size={52}/>
+            title: "Full Stack & AI Engineer Intern at RoshAi",
+            description: "Deployed camera-based deep learning systems at leading telecommunications and financial technology companies for automated quality inspection, significantly reducing inspection time and achieving substantial reduction in labor costs. Engineered custom 3D laser scanner systems and built internal tools including a Lead Management System that improved conversion rates. Mentored AI Support Engineers and experimented with machine learning algorithms for major automotive manufacturers using CAN bus data analysis.",
+            duration: "Dec 2024 - Sep 2025",
+            logo: <Image src="/roshai-logo-white.webp" alt="RoshAI Logo" width={72} height={72} className="shrink-0 object-contain" />
         },
         {
-            title: "Lead Software Engineer at Adobe",
-            description: "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
-            duration: "Nov 2019 - Present",
-            logo: <IconBrandAdobe className="shrink-0" size={52}/>
+            title: "iOS App Development Intern at Infosys",
+            description: "Selected among 50 of 500+ applicants for Apple-Infosys joint initiative promoting Swift development. Collaborated in cross-functional team developing native Hospital Management System using SwiftUI and Firebase. Implemented RESTful API integration using Node.js, Express.js, and Nodemailer for email functionality.",
+            duration: "Apr 2023 - May 2023",
+            logo: <Image src="/infosys.png" alt="Infosys Logo" width={72} height={72} className="shrink-0 object-contain" />
         }
     ]
     return (

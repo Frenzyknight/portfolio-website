@@ -1,86 +1,141 @@
-import { IconBrandReact, IconBrandNextjs, IconBrandTailwind, IconBrandJavascript, IconBrandHtml5, IconBrandCss3, IconBrandPython, IconBrandDjango, IconBrandGit, IconBrandMongodb, IconBrandMysql, IconBrandFirebase, IconBrandOauth,IconBrandSwift, IconBrandTypescript, IconBrandFigma} from "@tabler/icons-react"
+import { SiReact, SiNextdotjs, SiTailwindcss, SiJavascript, SiHtml5, SiCss3, SiPython, SiDjango, SiGit, SiMongodb, SiMysql, SiFirebase, SiAuth0, SiSwift, SiTypescript, SiFigma, SiPytorch, SiTensorflow, SiNumpy, SiFastapi, SiOllama, SiGreensock, SiFlask, SiOpencv, SiPandas, SiPlotly, SiScikitlearn } from "react-icons/si"
 
 export default function SkillsSection() {
     const skills = [
         {
             name: "React",
-            icon: <IconBrandReact size={56} stroke={1.5}/>,
+            icon: <SiReact size={56} />,
             color: "hover:bg-react"
         },
         {
             name: "Next.js",
-            icon: <IconBrandNextjs size={56} stroke={1.5}/>,
+            icon: <SiNextdotjs size={56} />,
             color: "hover:bg-github"
         },
         {
             name: "Tailwind",
-            icon: <IconBrandTailwind size={56} stroke={1.5}/>,
+            icon: <SiTailwindcss size={56} />,
             color: "hover:bg-tailwind"
         },
         {
             name: "JavaScript",
-            icon: <IconBrandJavascript size={56} stroke={1.5}/>,
+            icon: <SiJavascript size={56} />,
             color: "hover:bg-javascript"
         },
         {
             name: "HTML5",
-            icon: <IconBrandHtml5 size={56} stroke={1.5}/>,
+            icon: <SiHtml5 size={56} />,
             color: "hover:bg-html"
         },
         {
             name: "CSS3",
-            icon: <IconBrandCss3 size={56} stroke={1.5}/>,
+            icon: <SiCss3 size={56} />,
             color: "hover:bg-css"
         },
         {
             name: "Python",
-            icon: <IconBrandPython size={56} stroke={1.5}/>,
+            icon: <SiPython size={56} />,
             color: "hover:bg-python"
         },
         {
             name: "Django",
-            icon: <IconBrandDjango size={56} stroke={1.5}/>,
+            icon: <SiDjango size={56} />,
             color: "hover:bg-django"
         },
         {
             name: "Git",
-            icon: <IconBrandGit size={56} stroke={1.5}/>,
+            icon: <SiGit size={56} />,
             color: "hover:bg-git"
         },
         {
             name: "MongoDB",
-            icon: <IconBrandMongodb size={56} stroke={1.5}/>,
+            icon: <SiMongodb size={56} />,
             color: "hover:bg-mongodb"
         },
         {
             name: "MySQL",
-            icon: <IconBrandMysql size={56} stroke={1.5}/>,
+            icon: <SiMysql size={56} />,
             color: "hover:bg-mysql"
         },
         {
             name: "Firebase",
-            icon: <IconBrandFirebase size={56} stroke={1.5}/>,
+            icon: <SiFirebase size={56} />,
             color: "hover:bg-firebase"
         },
         {
             name: "OAuth",
-            icon: <IconBrandOauth size={56} stroke={1.5}/>,
+            icon: <SiAuth0 size={56} />,
             color: "hover:bg-github"
         },
         {
             name: "Swift",
-            icon: <IconBrandSwift size={56} stroke={1.5}/>,
+            icon: <SiSwift size={56} />,
             color: "hover:bg-swift"
         },
         {
             name: "TypeScript",
-            icon: <IconBrandTypescript size={56} stroke={1.5}/>,
+            icon: <SiTypescript size={56} />,
             color: "hover:bg-typescript"
         },
         {
             name: "Figma",
-            icon: <IconBrandFigma size={56} stroke={1.5}/>,
+            icon: <SiFigma size={56} />,
             color: "hover:bg-figma"
+        },
+        {
+            name: "TensorFlow",
+            icon: <SiTensorflow size={56} />,
+            color: "hover:bg-orange-500"
+        },
+        {
+            name: "PyTorch",
+            icon: <SiPytorch size={56} />,
+            color: "hover:bg-red-500"
+        },
+        {
+            name: "NumPy",
+            icon: <SiNumpy size={56} />,
+            color: "hover:bg-blue-500"
+        },
+        {
+            name: "Ollama",
+            icon: <SiOllama size={56} />,
+            color: "hover:bg-green-500"
+        },
+        {
+            name: "FastAPI",
+            icon: <SiFastapi size={56} />,
+            color: "hover:bg-teal-500"
+        },
+        {
+            name: "GSAP",
+            icon: <SiGreensock size={56} />,
+            color: "hover:bg-green-600"
+        },
+        {
+            name: "Flask",
+            icon: <SiFlask size={56} />,
+            color: "hover:bg-gray-600"
+        },
+        {
+            name: "OpenCV",
+            icon: <SiOpencv size={56} />,
+            color: "hover:bg-blue-600"
+        },
+        {
+            name: "Pandas",
+            icon: <SiPandas size={56} />,
+            color: "hover:bg-purple-500"
+        },
+        {
+            name: "Matplotlib",
+            icon: <SiPlotly size={56} />,
+            color: "hover:bg-indigo-500"
+        },
+        {
+            name: "Scikit-learn",
+            icon: <SiScikitlearn size={56} />,
+            color: "hover:bg-orange-600"
         }
     ]
   return (

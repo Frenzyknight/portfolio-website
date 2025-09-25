@@ -14,7 +14,7 @@ export default function HeroSection() {
                         <span className="font-bold">FullStack</span> Developer
                     </h1>
                     <p className="text-zinc-500 mt-6 lg:mt-8 xl:mt-12 xl:w-xl lg:w-md md:w-xs w-full">
-                    I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+                    I&apos;m a passionate Full Stack Developer and AI Engineer specializing in computer vision, deep learning systems, and modern web applications. I build innovative solutions that bridge the gap between cutting-edge AI technology and user-friendly interfaces.
                     </p>
                     <div className="flex gap-4 mt-12 sm:self-start self-center">
                         <motion.a href="https://github.com/Frenzyknight" target="_blank" whileHover={{scale:1.2}} className="p-3 bg-github rounded-md"><IconBrandGithubFilled className="text-white" size={28}/></motion.a>
