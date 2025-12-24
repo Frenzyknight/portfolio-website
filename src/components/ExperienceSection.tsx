@@ -2,6 +2,12 @@ import Image from "next/image"
 export default function ExpereienceSection() {
     const experience = [
         {
+            title: "GenAI Engineer at DonorIQ",
+            description: "Built a customer-facing AI Sandbox Platform for organ procurement organizations to test donor-chart parsing and AI decision workflows, demonstrating end-to-end product capabilities. Developed the full-stack architecture using Next.js (API Routes, SSR, file-based routing) for simplified deployment and reduced complexity; integrated Azure PostgreSQL and Azure Blob Storage for structured and document data. Designed prompt schemas and built Reducto API pipelines for parsing, splitting, and extracting key medical information; implemented evaluation flows using the Claude SDK. Reduced donor-case review time from 2 hours to under 20 minutes — the sandbox was well received and played a key role in converting prospects into full clients.",
+            duration: "Oct 2025 - Present",
+            logo: <Image src="/donorIQ-_logo.svg" alt="DonorIQ Logo" width={72} height={72} className="shrink-0 object-contain" />
+        },
+        {
             title: "Full Stack & AI Engineer Intern at RoshAi",
             description: "Deployed camera-based deep learning systems at leading telecommunications and financial technology companies for automated quality inspection, significantly reducing inspection time and achieving substantial reduction in labor costs. Engineered custom 3D laser scanner systems and built internal tools including a Lead Management System that improved conversion rates. Mentored AI Support Engineers and experimented with machine learning algorithms for major automotive manufacturers using CAN bus data analysis.",
             duration: "Dec 2024 - Sep 2025",

@@ -7,10 +7,10 @@ export default function Home() {
   return (
    <main>
     <HeroSection />
+    <ProjectSection />
     <SkillsSection />
     <ExperienceSection />
     <AboutSection />
-    <ProjectSection />
    </main>
   );
 }
