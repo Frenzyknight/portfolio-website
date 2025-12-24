@@ -1,3 +1,19 @@
+import Spline from '@splinetool/react-spline/next';
+
+export default function SkillsSection() {
+  return (
+    <section id='skills' className='flex flex-col gap-12 md:gap-20 items-center justify-center h-fit py-10 px-6 sm:px-6 md:py-14 lg:px-8 xl:px-12 font-sora'>
+      <h2 className="text-3xl md:text-5xl">My <span className="font-extrabold">Skills</span></h2>
+      <div className="w-full h-[500px] md:h-[600px] lg:h-[700px]">
+        <Spline
+          scene="https://prod.spline.design/dRYxkaunhFFrzDzZ/scene.splinecode" 
+        />
+      </div>
+    </section>
+  );
+}
+
+/* COMMENTED OUT ORIGINAL SKILLS SECTION
 import { SiReact, SiNextdotjs, SiTailwindcss, SiJavascript, SiHtml5, SiCss3, SiPython, SiDjango, SiGit, SiMongodb, SiMysql, SiFirebase, SiAuth0, SiSwift, SiTypescript, SiFigma, SiPytorch, SiTensorflow, SiNumpy, SiFastapi, SiOllama, SiGreensock, SiFlask, SiOpencv, SiPandas, SiPlotly, SiScikitlearn } from "react-icons/si"
 
 export default function SkillsSection() {
@@ -154,3 +170,4 @@ export default function SkillsSection() {
     </section>
   )
 }
+*/
